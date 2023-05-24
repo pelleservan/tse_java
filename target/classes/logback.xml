@@ -1,0 +1,27 @@
+<configuration>
+  <appender name="File1" class="ch.qos.logback.core.FileAppender">
+    <file>logs/debug.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+    </layout>
+  </appender>
+
+  <appender name="File2" class="ch.qos.logback.core.FileAppender">
+    <file>logs/info.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+    </layout>
+  </appender>
+
+  <logger name="com.debug.logging" level="DEBUG" additivity="false">
+    <appender-ref ref="File1"/>
+  </logger>
+
+  <logger name="com.info.logging" level="INFO" additivity="false">
+    <appender-ref ref="File2"/>
+  </logger>
+
+  <root level="ERROR">
+    <appender-ref ref="File1"/>
+  </root>
+</configuration>
