@@ -274,3 +274,28 @@ Les 2 types sont Info et debug, comme dit au dessus pour un soucis de compréhen
 # Tests Unitaires
 
 Pour les tests, nous avons juger que seul la vérification de format étaient importante
+                                                                                                     
+                                                                                                     
+# Connexion à la base de données                                                           
+Pour configurer votre connexion, il suffit d'aller dans le package DB, dans la classe DBConnection et de changer les valeurs des variables suivantes :
+- jdbcURL
+- username
+- password
+
+# Création de la table pour votre base : 
+``` SQL
+CREATE SCHEMA java_project ;                                                                                         
+                                                                                                     
+CREATE TABLE particuliers (
+    Numero_Securite_Sociale BIGINT,
+    Nom VARCHAR(255),
+    Prenom VARCHAR(255),
+    Date_Naissance DATE,
+    Numero_Telephone INT,
+    E_Mail VARCHAR(255),
+    ID_Remboursement INT,
+    Code_Soin INT,
+    Montant_Remboursement FLOAT
+);
+```
+                                                                                                     
