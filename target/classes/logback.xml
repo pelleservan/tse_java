@@ -1,13 +1,13 @@
 <configuration>
   <appender name="File1" class="ch.qos.logback.core.FileAppender">
-    <file>logs/debug.log</file>
+    <file>./src/logs/debug.log</file>
     <layout class="ch.qos.logback.classic.PatternLayout">
       <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
     </layout>
   </appender>
 
   <appender name="File2" class="ch.qos.logback.core.FileAppender">
-    <file>logs/info.log</file>
+    <file>./src/logs/info.log</file>
     <layout class="ch.qos.logback.classic.PatternLayout">
       <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
     </layout>

@@ -1,0 +1,9 @@
+2023-06-04 21:21:52,343 ERROR com.debug.logging [main] Error occurred while parsing XML file: /Users/servanpelle/Documents/Visual/projects/helloword/Java/tse_java/sample.xml (No such file or directory)
+2023-06-04 21:21:52,351 ERROR com.debug.logging [main] Error occurred while parsing XML file: /Users/servanpelle/Documents/Visual/projects/helloword/Java/tse_java/sample.xml (No such file or directory)
+2023-06-04 21:23:11,348 ERROR com.debug.logging [main] Error occurred while parsing XML file: /Users/servanpelle/Documents/Visual/projects/helloword/Java/tse_java/sample.xml (No such file or directory)
+2023-06-04 21:23:11,356 ERROR com.debug.logging [main] Error occurred while parsing XML file: /Users/servanpelle/Documents/Visual/projects/helloword/Java/tse_java/sample.xml (No such file or directory)
+2023-06-04 21:24:31,848 ERROR com.debug.logging [main] Error occurred while parsing XML file: /Users/servanpelle/Documents/Visual/projects/helloword/Java/tse_java/sample.xml (No such file or directory)
+2023-06-04 21:30:00,940 ERROR com.debug.logging [main] Error occurred while parsing XML file: /Users/servanpelle/Documents/Visual/projects/helloword/Java/tse_java/../format/define_header.xml (No such file or directory)
+2023-06-04 21:30:32,522 ERROR com.debug.logging [main] Error occurred while parsing XML file: /Users/servanpelle/Documents/Visual/projects/helloword/Java/tse_java/../../format/define_header.xml (No such file or directory)
+2023-06-04 21:39:54,802 DEBUG com.debug.logging [main] Skipping file: file.csv as it is not a CSV file.
+2023-06-04 21:40:37,972 DEBUG com.debug.logging [main] Skipping file: file.csv as it is not a CSV file.

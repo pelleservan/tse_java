@@ -1,0 +1,16 @@
+2023-06-04 21:17:58,759 INFO com.info.logging [main] Reading header from CSV file: test-file5919818882120986516.csv
+2023-06-04 21:17:58,770 INFO com.info.logging [main] Header read successfully: [Header1, Header2, Header3]
+2023-06-04 21:17:58,770 INFO com.info.logging [main] Writing headers to CSV file: clean_test-file5919818882120986516.csv
+2023-06-04 21:17:58,770 INFO com.info.logging [main] Line written to CSV file: clean_test-file5919818882120986516.csv
+2023-06-04 21:17:58,770 INFO com.info.logging [main] Line written to CSV file: clean_test-file5919818882120986516.csv
+2023-06-04 21:17:58,771 INFO com.info.logging [main] Line written to CSV file: clean_test-file5919818882120986516.csv
+2023-06-04 21:18:53,432 INFO com.info.logging [main] Reading header from CSV file: test-file7070040785662991165.csv
+2023-06-04 21:18:53,440 INFO com.info.logging [main] Header read successfully: [Header1, Header2, Header3]
+2023-06-04 21:18:53,440 INFO com.info.logging [main] Writing headers to CSV file: clean_test-file7070040785662991165.csv
+2023-06-04 21:18:53,440 INFO com.info.logging [main] Line written to CSV file: clean_test-file7070040785662991165.csv
+2023-06-04 21:18:53,441 INFO com.info.logging [main] Line written to CSV file: clean_test-file7070040785662991165.csv
+2023-06-04 21:18:53,441 INFO com.info.logging [main] Line written to CSV file: clean_test-file7070040785662991165.csv
+2023-06-04 21:40:37,960 INFO com.info.logging [main] Found CSV file: users_20230603171542.csv
+2023-06-04 21:40:37,961 INFO com.info.logging [main] Found CSV file: users_20230603171800.csv
+2023-06-04 21:40:37,962 INFO com.info.logging [main] Found CSV file: users_20230603171723.csv
+2023-06-04 21:40:37,962 INFO com.info.logging [main] Found CSV file: users_20230603171640.csv
